@@ -219,10 +219,10 @@ const SidebarForNavbarAsli = () => {
 
           {/* Buttons inside Sidebar */}
           <div className="flex flex-col items-center space-y-4 mt-6">
-            <button className="bg-indigo-50 text-bg-[#48CFCB] rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-indigo-100">
+            <button className="bg-indigo-50 text-[#48CFCB] rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-indigo-300">
               Login
             </button>
-            <button className="bg-bg-[#48CFCB] text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-[#6439FF]">
+            <button className="bg-[#48CFCB] text-white rounded-full cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 py-3 px-6 text-sm hover:bg-[#6439FF]">
               Sign up
             </button>
           </div>
