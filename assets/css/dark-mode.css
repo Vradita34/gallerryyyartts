@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7fafc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container */
+  padding: 1rem;  /* Add some padding */
+}
+
+.theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.theme-toggle-button {
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.theme-toggle-button::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.theme-toggle-button[data-theme="dark"]::before {
+  left: 30px; /* Moves the toggle circle to the right in dark mode */
+}
+
+.theme-toggle-button:hover::before {
+  transform: scale(1.2);
+}
