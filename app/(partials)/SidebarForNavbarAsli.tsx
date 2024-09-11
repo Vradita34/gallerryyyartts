@@ -208,7 +208,7 @@ const SidebarForNavbarAsli = () => {
                     >
                       <FlipText
                         word={link.label}
-                        className={`text-2xl font-normal sm:font-bold text-left tracking-[-0.1em]  ${activeLink === link.href ? "text-[#55fff1]" : "text-white dark:text-black"}`}
+                        className={`text-2xl font-normal sm:font-bold text-left tracking-[-0.1em]  ${activeLink === link.href ? "text-[#55fff1]" : "text-black dark:text-white"}`}
                       />
                     </a>
                   </motion.div>
